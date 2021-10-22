@@ -11,6 +11,7 @@ numbers = """
 6- Dns spoofing
 7- Port scanning
 8- Port scanning manual
+9- Get location
 """
 print (colored(banner, "red"))
 print (colored(title, "yellow"))
@@ -18,28 +19,31 @@ print (colored(numbers,"cyan"))
 
 inpt = input("Choose Number : ")
 if inpt == "1":
-	import siteInfo
+	import modules/siteInfo
 
 if inpt == "2":
-	import sourceCode
+	import modules/sourceCode
 	
 if inpt == "3":
-	import subdomain
+	import modules/subdomain
 	
 if inpt == "4":
-	import paths
+	import modules/paths
 
 if inpt == "5":
-	import dos
+	import modules/dos
 
 if inpt == "6":
-	import dnsSniff
+	import modules/dnsSniff
 
 if inpt == "7":
-	import portScanner
+	import modules/portScanner
 	
 if inpt == "8":
-	import scanM
+	import modules/scanM
+
+if inpt == "9":
+	import ipAddrInfo
 	
 else:
-	import network
+	inpt = input("Choose Number : ")
