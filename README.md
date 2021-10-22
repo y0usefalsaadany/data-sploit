@@ -5,7 +5,7 @@ thia tool for networking
 to work without any problem you should install
 ```
 pkg update upgrade
-pkg install git php python
+pkg install git python
 pip install --upgrade pip
 git clone https://github.com/y0usefalsaadany/data-sploit.git
 cd data-sploit
