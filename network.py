@@ -11,7 +11,7 @@ numbers = """
 6- Dns spoofing
 7- Port scanning
 8- Port scanning manual
-9- Get location
+
 """
 print (colored(banner, "red"))
 print (colored(title, "yellow"))
@@ -41,9 +41,6 @@ if inpt == "7":
 	
 if inpt == "8":
 	import modules/scanM
-
-if inpt == "9":
-	import ipAddrInfo
 	
 else:
 	inpt = input("Choose Number : ")
