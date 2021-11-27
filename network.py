@@ -19,28 +19,28 @@ print (colored(numbers,"cyan"))
 
 inpt = input("Choose Number : ")
 if inpt == "1":
-	import modules/siteInfo
+	import siteInfo
 
 if inpt == "2":
-	import modules/sourceCode
+	import sourceCode
 	
 if inpt == "3":
-	import modules/subdomain
+	import subdomain
 	
 if inpt == "4":
-	import modules/paths
+	import paths
 
 if inpt == "5":
-	import modules/dos
+	import dos
 
 if inpt == "6":
-	import modules/dnsSniff
+	import dnsSniff
 
 if inpt == "7":
-	import modules/portScanner
+	import portScanner
 	
 if inpt == "8":
-	import modules/scanM
+	import scanM
 	
 else:
 	inpt = input("Choose Number : ")
