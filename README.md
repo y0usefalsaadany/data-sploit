@@ -1,5 +1,5 @@
 # data-sploit
-thia tool for networking
+this tool for networking
 
 # installation 
 to work without any problem you should install
